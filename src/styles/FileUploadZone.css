@@ -1,0 +1,14 @@
+.file-upload-zone {
+    width: 500px;
+    height: 250px;
+    border: 2px dashed #999;
+    border-radius: 10px;
+    line-height: 250px;
+    font-size: 28px;
+    color: #999;
+}
+
+.file-upload-zone.chosen {
+    color: #777;
+    border: 2px dashed #777;
+}

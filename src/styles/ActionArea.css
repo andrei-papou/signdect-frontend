@@ -1,0 +1,27 @@
+.action-area {
+    margin-top: 40px;
+}
+
+.action-area button {
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    background: #999;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.action-area button:hover {
+    cursor: pointer;
+    background: #888;
+}
+
+.action-area button.disabled {
+    background: #aaa;
+}
+
+.action-area button.disabled:hover {
+    cursor: auto;
+    background: #aaa;
+}
